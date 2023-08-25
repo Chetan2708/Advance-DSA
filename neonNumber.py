@@ -5,7 +5,6 @@ def sumOfDigits(n):
         n //= 10
     return total
 
-
 def NeonReturn(n):
     square = n * n
     sum_digits = sumOfDigits(square)
